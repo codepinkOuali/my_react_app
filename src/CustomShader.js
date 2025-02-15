@@ -7,8 +7,8 @@ class CustomShader extends THREE.ShaderMaterial {
     super({
       uniforms: {
         time: { value: 0 },
-        colorStart: { value: new THREE.Color('#1c2a38') }, // Deep purple
-        colorEnd: { value: new THREE.Color('#99e7ff') }    // Teal
+        colorStart: { value: new THREE.Color('#1c2a38') }, 
+        colorEnd: { value: new THREE.Color('#99e7ff') }    
       },
       vertexShader: /* glsl */ `
         varying vec2 vUv;
